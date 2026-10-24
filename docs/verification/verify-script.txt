@@ -1,0 +1,68 @@
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/cmd/demo	[no test files]
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/database	(cached)
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/handlers	0.340s
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/models	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/static	[no test files]
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/utils	(cached)
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/cmd/demo	[no test files]
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/database	(cached)
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/handlers	2.470s
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/models	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/static	[no test files]
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/utils	(cached)
+=== RUN   TestConcurrentDraw52
+--- PASS: TestConcurrentDraw52 (0.02s)
+=== RUN   TestConcurrentLoad104
+    api_test.go:410: 104 concurrent HTTP requests: 48.759014ms, 2132.94 requests/sec (52 successful draws + 52 empty errors; async history enabled)
+--- PASS: TestConcurrentLoad104 (0.05s)
+=== RUN   TestIsolation
+--- PASS: TestIsolation (0.04s)
+=== RUN   TestConcurrentDraw52
+--- PASS: TestConcurrentDraw52 (0.02s)
+=== RUN   TestConcurrentLoad104
+    api_test.go:410: 104 concurrent HTTP requests: 22.16173ms, 4692.77 requests/sec (52 successful draws + 52 empty errors; async history enabled)
+--- PASS: TestConcurrentLoad104 (0.03s)
+=== RUN   TestIsolation
+--- PASS: TestIsolation (0.03s)
+=== RUN   TestConcurrentDraw52
+--- PASS: TestConcurrentDraw52 (0.02s)
+=== RUN   TestConcurrentLoad104
+    api_test.go:410: 104 concurrent HTTP requests: 38.538782ms, 2698.58 requests/sec (52 successful draws + 52 empty errors; async history enabled)
+--- PASS: TestConcurrentLoad104 (0.05s)
+=== RUN   TestIsolation
+--- PASS: TestIsolation (0.04s)
+=== RUN   TestConcurrentDraw52
+--- PASS: TestConcurrentDraw52 (0.02s)
+=== RUN   TestConcurrentLoad104
+    api_test.go:410: 104 concurrent HTTP requests: 32.072305ms, 3242.67 requests/sec (52 successful draws + 52 empty errors; async history enabled)
+--- PASS: TestConcurrentLoad104 (0.04s)
+=== RUN   TestIsolation
+--- PASS: TestIsolation (0.04s)
+=== RUN   TestConcurrentDraw52
+--- PASS: TestConcurrentDraw52 (0.02s)
+=== RUN   TestConcurrentLoad104
+    api_test.go:410: 104 concurrent HTTP requests: 30.064598ms, 3459.22 requests/sec (52 successful draws + 52 empty errors; async history enabled)
+--- PASS: TestConcurrentLoad104 (0.03s)
+=== RUN   TestIsolation
+--- PASS: TestIsolation (0.03s)
+PASS
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/handlers	0.481s
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/cmd/demo	[no test files]
+PASS
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/database	0.029s
+2026/10/23 18:01:19 panic: intentional
+2026/10/23 18:01:19 database: no such table: cards
+goos: linux
+goarch: amd64
+pkg: github.com/Youssef-Hamdani/tp1-go-deck-api/handlers
+BenchmarkDrawReturnCycle-3   	    2052	    695475 ns/op	   74640 B/op	    1235 allocs/op
+BenchmarkDrawOne-3           	    3501	    337270 ns/op	   36333 B/op	     523 allocs/op
+PASS
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/handlers	3.045s
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/models	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/static	[no test files]
+PASS
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/utils	0.005s

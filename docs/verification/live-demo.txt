@@ -1,0 +1,49 @@
+GET /api/deck/new/
+{"success":true,"deck_id":"5g7f9aa7pd9u","shuffled":false,"remaining":52}
+GET /api/deck/new/shuffle/
+{"success":true,"deck_id":"3rwkz1q3ofs4","shuffled":true,"remaining":52}
+GET /api/deck/new/?deck_count=6
+{"success":true,"deck_id":"1qcvby6gt2wc","shuffled":false,"remaining":312}
+GET /api/deck/new/?jokers_enabled=true
+{"success":true,"deck_id":"sb079szl1eur","shuffled":false,"remaining":54}
+GET /api/deck/new/shuffle/?cards=AS,2S,KS,AD,2D,KD,AC,2C,KC,AH,2H,KH
+{"success":true,"deck_id":"dq6rz29kgqd5","shuffled":true,"remaining":12}
+GET /api/deck/new/draw/?count=2
+{"success":true,"deck_id":"vrrvgbxeox9e","remaining":50,"cards":[{"code":"JD","image":"http://127.0.0.1:18080/static/img/JD.svg","value":"VALET","suit":"CARREAU"},{"code":"7D","image":"http://127.0.0.1:18080/static/img/7D.svg","value":"7","suit":"CARREAU"}]}
+GET /api/deck/new/
+{"success":true,"deck_id":"uwbrus5tkwkz","shuffled":false,"remaining":52}
+GET /api/deck/uwbrus5tkwkz/draw/?count=5
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"cards":[{"code":"AS","image":"http://127.0.0.1:18080/static/img/AS.svg","value":"AS","suit":"PIQUE"},{"code":"2S","image":"http://127.0.0.1:18080/static/img/2S.svg","value":"2","suit":"PIQUE"},{"code":"3S","image":"http://127.0.0.1:18080/static/img/3S.svg","value":"3","suit":"PIQUE"},{"code":"4S","image":"http://127.0.0.1:18080/static/img/4S.svg","value":"4","suit":"PIQUE"},{"code":"5S","image":"http://127.0.0.1:18080/static/img/5S.svg","value":"5","suit":"PIQUE"}]}
+GET /api/deck/uwbrus5tkwkz/pile/discard/add/?cards=AS,2S,3S,4S,5S
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"piles":{"discard":{"remaining":5}}}
+GET /api/deck/uwbrus5tkwkz/pile/discard/list/
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"piles":{"discard":{"remaining":5,"cards":[{"code":"AS","image":"http://127.0.0.1:18080/static/img/AS.svg","value":"AS","suit":"PIQUE"},{"code":"2S","image":"http://127.0.0.1:18080/static/img/2S.svg","value":"2","suit":"PIQUE"},{"code":"3S","image":"http://127.0.0.1:18080/static/img/3S.svg","value":"3","suit":"PIQUE"},{"code":"4S","image":"http://127.0.0.1:18080/static/img/4S.svg","value":"4","suit":"PIQUE"},{"code":"5S","image":"http://127.0.0.1:18080/static/img/5S.svg","value":"5","suit":"PIQUE"}]}}}
+GET /api/deck/uwbrus5tkwkz/pile/discard/draw/
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"cards":[{"code":"5S","image":"http://127.0.0.1:18080/static/img/5S.svg","value":"5","suit":"PIQUE"}],"piles":{"discard":{"remaining":4}}}
+GET /api/deck/uwbrus5tkwkz/pile/discard/draw/bottom/
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"cards":[{"code":"AS","image":"http://127.0.0.1:18080/static/img/AS.svg","value":"AS","suit":"PIQUE"}],"piles":{"discard":{"remaining":3}}}
+GET /api/deck/uwbrus5tkwkz/pile/discard/shuffle/
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"piles":{"discard":{"remaining":3}}}
+GET /api/deck/uwbrus5tkwkz/pile/discard/draw/random/
+{"success":true,"deck_id":"uwbrus5tkwkz","remaining":47,"cards":[{"code":"2S","image":"http://127.0.0.1:18080/static/img/2S.svg","value":"2","suit":"PIQUE"}],"piles":{"discard":{"remaining":2}}}
+GET /api/deck/uwbrus5tkwkz/pile/discard/return/
+{"success":true,"deck_id":"uwbrus5tkwkz","shuffled":false,"remaining":49,"piles":{"discard":{"remaining":0}}}
+GET /api/deck/uwbrus5tkwkz/return/
+{"success":true,"deck_id":"uwbrus5tkwkz","shuffled":false,"remaining":52,"piles":{"discard":{"remaining":0}}}
+GET /api/deck/uwbrus5tkwkz/shuffle/?remaining=true
+{"success":true,"deck_id":"uwbrus5tkwkz","shuffled":true,"remaining":52}
+GET /api/deck/uwbrus5tkwkz/shuffle/
+{"success":true,"deck_id":"uwbrus5tkwkz","shuffled":true,"remaining":52}
+PASS expected error 404: Deck not found
+PASS expected error 400: Not enough cards remaining
+PASS expected error 400: Pile is empty
+PASS SVG http://127.0.0.1:18080/static/img/AS.svg
+PASS SVG http://127.0.0.1:18080/static/img/10H.svg
+PASS SVG http://127.0.0.1:18080/static/img/X1.svg
+PASS SVG http://127.0.0.1:18080/static/img/X2.svg
+PASS SVG http://127.0.0.1:18080/static/img/back.svg
+GET /api/deck/new/
+{"success":true,"deck_id":"ccrufmt4urot","shuffled":false,"remaining":52}
+GET /api/deck/ccrufmt4urot/return/
+{"success":true,"deck_id":"ccrufmt4urot","shuffled":false,"remaining":52}
+PASS: 104 concurrent requests in 245.922863ms = 422.90 requests/sec; 52 distinct cards, 52 empty responses; return restores 52. Async history enabled.

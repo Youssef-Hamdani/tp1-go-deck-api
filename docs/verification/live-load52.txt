@@ -1,0 +1,5 @@
+GET /api/deck/new/
+{"success":true,"deck_id":"zes47ukbqrhm","shuffled":false,"remaining":52}
+GET /api/deck/zes47ukbqrhm/return/
+{"success":true,"deck_id":"zes47ukbqrhm","shuffled":false,"remaining":52}
+PASS: 52 concurrent requests in 363.286139ms = 143.14 requests/sec; 52 distinct cards, 0 empty responses; return restores 52. Async history enabled.

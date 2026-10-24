@@ -1,0 +1,218 @@
+{
+  "AS.svg": {
+    "source": "AS.svg",
+    "sha256": "91edd6f529097f7e940c46806688452a830184370f0b595ed9a356297aa2e3b5"
+  },
+  "2S.svg": {
+    "source": "2S.svg",
+    "sha256": "17bdac16ba27282c554e802ae391c729e2c18d72b3d94733c5d3de94e64a13d8"
+  },
+  "3S.svg": {
+    "source": "3S.svg",
+    "sha256": "2d892bcfaba013152d436012e94afe56d390ad9246638f05aa7febccc237137e"
+  },
+  "4S.svg": {
+    "source": "4S.svg",
+    "sha256": "c8df68197fa30a8b739f9c759422c487491cf428abcfa8aa4c0c5df1b3d3e8bc"
+  },
+  "5S.svg": {
+    "source": "5S.svg",
+    "sha256": "86782551d7293d431d75b63d5f2f861b4b9cfbf91ca81712a2470a4a06a331a8"
+  },
+  "6S.svg": {
+    "source": "6S.svg",
+    "sha256": "b2369975cb890927cdfea71bf0566625dcdf60bbe94755a3e00db39d7c403467"
+  },
+  "7S.svg": {
+    "source": "7S.svg",
+    "sha256": "89fe7bc04ef0a28a0fcc3d45d8157f84d83e0c76a96134218e02f7af106c3b79"
+  },
+  "8S.svg": {
+    "source": "8S.svg",
+    "sha256": "1c77c7ae5d244cc7e618725517eb233d8dbaba661e7db121b4feeff524e8b9d1"
+  },
+  "9S.svg": {
+    "source": "9S.svg",
+    "sha256": "3dd253b94b896e4e896b122f5e754799c88922b16607d1fd2597ff38b18d799d"
+  },
+  "10S.svg": {
+    "source": "0S.svg",
+    "sha256": "73328eae154e6f960351e5a3bf1b99cddf242fb89187e16ecee7b32845a22330"
+  },
+  "JS.svg": {
+    "source": "JS.svg",
+    "sha256": "c8f30d92858a5bd5d9c1696b1daea25bd59afe50901d52a94ea3138464926f84"
+  },
+  "QS.svg": {
+    "source": "QS.svg",
+    "sha256": "1f17c8f0d9964b0e3b8bd07f46217abace80b68f6b6dc066308107eef98bea1a"
+  },
+  "KS.svg": {
+    "source": "KS.svg",
+    "sha256": "6bb9a8bdf8485923386a3bad4ce43eff3f8444a09df5e29df2f381eb727a0dd7"
+  },
+  "AD.svg": {
+    "source": "AD.svg",
+    "sha256": "0558ee95bb6e6c564188bb37dde88054d94e40b7452592c10b3533d98ca2eaa4"
+  },
+  "2D.svg": {
+    "source": "2D.svg",
+    "sha256": "b8ae7859ec2d55882bf85f04d0269c0b40b6b143a4ba03e7b96c81036d242fbf"
+  },
+  "3D.svg": {
+    "source": "3D.svg",
+    "sha256": "c8d23c70da2716ef953ac3d02186781bc6c349cb27728984e58f9cfbd414be24"
+  },
+  "4D.svg": {
+    "source": "4D.svg",
+    "sha256": "c907fce6c08e161f4112a706ffbe4c14d5548e547de6f7aaefff4ab0a6c12876"
+  },
+  "5D.svg": {
+    "source": "5D.svg",
+    "sha256": "b6dc75461c1ef722c316df36810e58ea9fe73bb65e4f0d0fc2c216ae9c8f7d28"
+  },
+  "6D.svg": {
+    "source": "6D.svg",
+    "sha256": "14fbe4ae09dda3c965c1145e98d6d1deb7a45b6f8942f0aa08691aa87fd686cd"
+  },
+  "7D.svg": {
+    "source": "7D.svg",
+    "sha256": "abb6cc1e4758e6b22b060f901e5cffa692c641c61ec20ad90ef295673d69a9ba"
+  },
+  "8D.svg": {
+    "source": "8D.svg",
+    "sha256": "6cc7e2c4f6a39fe8f252f753925855e07653a135e7b572662870053eaed0f76b"
+  },
+  "9D.svg": {
+    "source": "9D.svg",
+    "sha256": "81bdc0bf81e42a05ce9c00a97bdaf63455562ee006c9db6109ba5fba0c1d8b64"
+  },
+  "10D.svg": {
+    "source": "0D.svg",
+    "sha256": "c4618dee2767ad5018b96bfd53f4dc85428131ce3695bdcb5d5aead7a9146fbd"
+  },
+  "JD.svg": {
+    "source": "JD.svg",
+    "sha256": "1df5ec37d476d87bce73844e98f5d0e2c519aa3da17e57d05cfdb337715adb5a"
+  },
+  "QD.svg": {
+    "source": "QD.svg",
+    "sha256": "c393d7d7e021bb559f673008d7fcd2dbfbf81632857ca2c30c200debd5bb8bac"
+  },
+  "KD.svg": {
+    "source": "KD.svg",
+    "sha256": "56aee1a14fb084a2f14e3fb47426fe7e0f055e5f72ea10c8a1034689bd533afa"
+  },
+  "AC.svg": {
+    "source": "AC.svg",
+    "sha256": "ba554138b0a28f5ae3e4a1e2d46201d789fcbb433f3c473efb6356c694ee45f0"
+  },
+  "2C.svg": {
+    "source": "2C.svg",
+    "sha256": "334b97958eecf17972f7f9b5a6c591315f31df5d90403d7cf5d1be68afe59e88"
+  },
+  "3C.svg": {
+    "source": "3C.svg",
+    "sha256": "fbb512d078790ea75e9d116afad0a4e58caae798292cc6534f82f283ae4851ca"
+  },
+  "4C.svg": {
+    "source": "4C.svg",
+    "sha256": "110edb0e012afb1368b3b65f78ddfd0d87957d832e2156f58c245dae8c9686e9"
+  },
+  "5C.svg": {
+    "source": "5C.svg",
+    "sha256": "663f8622d99951536bbc4fe5e2a7b489b8256594807569e0aebc6cf977d2915e"
+  },
+  "6C.svg": {
+    "source": "6C.svg",
+    "sha256": "437b99efcbcf3ef61d1cc26ee7994f32425ddc40ab27fa8530b9d8c17d97247f"
+  },
+  "7C.svg": {
+    "source": "7C.svg",
+    "sha256": "d593239851f8f7490d25362c8e93e93827416ed2facf74a20ab7f521b5e978d1"
+  },
+  "8C.svg": {
+    "source": "8C.svg",
+    "sha256": "de8d7b8c5fefdcc23b728afc8f024105e362d7d6281fbe0779d89edfe54bc9cb"
+  },
+  "9C.svg": {
+    "source": "9C.svg",
+    "sha256": "fa1c83e4d460126f5533f2c75861518806cffe08d177aa4998cc134c053cc86c"
+  },
+  "10C.svg": {
+    "source": "0C.svg",
+    "sha256": "f0fe88c060634a0dc33c07667de2e67250532e00949236c088bf92bd96e9d362"
+  },
+  "JC.svg": {
+    "source": "JC.svg",
+    "sha256": "640a0ffb3dd9a176163851586816e27cdc1206a57b77b203f57c60ad1486f8ac"
+  },
+  "QC.svg": {
+    "source": "QC.svg",
+    "sha256": "82e40932968be4c3531b1d39e565d539aeb5521259a02cb3696ae680517ddbe8"
+  },
+  "KC.svg": {
+    "source": "KC.svg",
+    "sha256": "c5c9633af272a2f027fac99f339e28c5dfdb1b5169c55f2f248a14045bbb4da1"
+  },
+  "AH.svg": {
+    "source": "AH.svg",
+    "sha256": "bf184cd6657668eec67cf4762f209cd2769f65dd9b32887af4d534813dda1a01"
+  },
+  "2H.svg": {
+    "source": "2H.svg",
+    "sha256": "f01ea7ab3083eb64961746f89d60a5e782989c2c5d1ffe4daa61881fbde81b3c"
+  },
+  "3H.svg": {
+    "source": "3H.svg",
+    "sha256": "42e148b88287461b0f2aaaf0d9a29d285d5f75ec99ff2a51e1ad061088ed07c1"
+  },
+  "4H.svg": {
+    "source": "4H.svg",
+    "sha256": "0e10cb36854fb1f3f39bb410072e313e17ba44cf041acf910860f8e2780da016"
+  },
+  "5H.svg": {
+    "source": "5H.svg",
+    "sha256": "2d297376efd8a56c0957308c3d7a7743f8e9fbc339864ea5f61efc283a4a871c"
+  },
+  "6H.svg": {
+    "source": "6H.svg",
+    "sha256": "0f0e1b59ceb0dc74518180df8ebd73f2a44b4975fb36b49522668c686a346323"
+  },
+  "7H.svg": {
+    "source": "7H.svg",
+    "sha256": "bc18bd837fdd9457324e2ce031926f502747fbbaa69d191aaa2fde2c3bac14be"
+  },
+  "8H.svg": {
+    "source": "8H.svg",
+    "sha256": "8d544b3e722ec286aa94b93b45e133ed0c18448c5d18fa6e65395ecff7b85061"
+  },
+  "9H.svg": {
+    "source": "9H.svg",
+    "sha256": "74697ecb79c254cff8711cd2fe051499f6b871140508babff8174d7ea27d7705"
+  },
+  "10H.svg": {
+    "source": "0H.svg",
+    "sha256": "df819a231f9d6b5a74d52497e94b38bb2189c6bcd68895c3ad087faa902915b2"
+  },
+  "JH.svg": {
+    "source": "JH.svg",
+    "sha256": "f2d34eb1b7a96bb96541dfdbadb51ee2b27fccc4557917af44f02aad58da2393"
+  },
+  "QH.svg": {
+    "source": "QH.svg",
+    "sha256": "72163cc1ea9f4a0d214f0a75b52f0cede253b8b6c7923703b428ba2e99f7ee65"
+  },
+  "KH.svg": {
+    "source": "KH.svg",
+    "sha256": "b3bc3fc847ddc0b59e7cb3ea2f725ccfd8516a0425bb60714986b09049a911df"
+  },
+  "X1.svg": {
+    "source": "X1.svg",
+    "sha256": "26f122dff3266bb1e95865c2da01de3019623565d9dad029d7ef0b773a07c795"
+  },
+  "X2.svg": {
+    "source": "X2.svg",
+    "sha256": "e1cae05aced992bc58ed42df6709450a24acd05be1c6f610921ee9a1e2f1bcb3"
+  }
+}

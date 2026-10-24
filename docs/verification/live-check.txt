@@ -1,0 +1,6 @@
+go run -race main.go server return: 0
+2026/10/18 18:01:44 Deck API listening on 127.0.0.1:18080
+
+integrity: ok
+history rows, distinct request IDs: (125, 125)
+location conservation: [('deck', 688), ('drawn', 2)]

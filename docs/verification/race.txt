@@ -1,0 +1,7 @@
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/cmd/demo	[no test files]
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/database	1.050s
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/handlers	2.491s
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/models	[no test files]
+?   	github.com/Youssef-Hamdani/tp1-go-deck-api/static	[no test files]
+ok  	github.com/Youssef-Hamdani/tp1-go-deck-api/utils	1.012s
